@@ -1,0 +1,30 @@
+# Build outputs
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+Build/
+
+# Visual Studio
+*.sln
+*.user
+.vs/
+*.opensdf
+*.VC.db
+*.VC.db-shm
+*.VC.db-wal
+*.VC.opendb
+
+# IDE
+.idea/
+.vscode/
+
+# macOS
+.DS_Store
+
+# Crashpad
+.crashreportclient/
+
+# Plugin build outputs
+Plugins/**/Binaries/
+Plugins/**/Intermediate/

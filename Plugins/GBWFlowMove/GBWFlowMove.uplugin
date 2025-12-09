@@ -1,0 +1,107 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "4.0",
+	"FriendlyName": "GBWFlowMove",
+	"Description": "FlowMoveSystem, Provide your character with a cool high-speed move ability, Multiplayer game ready!",
+	"Category": "GBW",
+	"CreatedBy": "GBWGame",
+	"CreatedByURL": "https://www.unrealengine.com/marketplace/en-US/profile/GBWGame",
+	"DocsURL": "https://www.wikiful.com/@GBWGame/gbwgame-wiki",
+	"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/e4e9a1b478944c6f8728a0ce061c585e",
+	"SupportURL": "https://www.wikiful.com/@GBWGame/gbwgame-wiki/online-technical-support",
+	"CanContainContent": true,
+	"Installed": true,
+	"Modules": [
+		{
+			"Name": "GBWPowerfulTools",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"PlatformAllowList": [
+				"Win64"
+			]
+		},
+		{
+			"Name": "GBWPowerfulToolsEditor",
+			"Type": "UncookedOnly",
+			"LoadingPhase": "PostEngineInit",
+			"PlatformAllowList": [
+				"Win64"
+			]
+		},
+		{
+			"Name": "GBWPowerfulState",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"PlatformAllowList": [
+				"Win64"
+			]
+		},
+		{
+			"Name": "GBWAnim",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"PlatformAllowList": [
+				"Win64"
+			]
+		},
+		{
+			"Name": "GBWFootIK",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"PlatformAllowList": [
+				"Win64"
+			]
+		},
+		{
+			"Name": "GBWRMS",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"PlatformAllowList": [
+				"Win64"
+			]
+		},
+		{
+			"Name": "GBWPowerfulPerception",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"PlatformAllowList": [
+				"Win64"
+			]
+		},
+		{
+			"Name": "GBWFlowMove",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"PlatformAllowList": [
+				"Win64"
+			]
+		},
+		{
+			"Name": "GBWAnimEditor",
+			"Type": "UncookedOnly",
+			"LoadingPhase": "PostEngineInit",
+			"PlatformAllowList": [
+				"Win64"
+			]
+		},
+		{
+			"Name": "GBWFootIKEditor",
+			"Type": "UncookedOnly",
+			"LoadingPhase": "PostEngineInit",
+			"PlatformAllowList": [
+				"Win64"
+			]
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "GameplayStateTree",
+			"Enabled": true
+		},
+		{
+			"Name": "StateTree",
+			"Enabled": true
+		}
+	]
+}
