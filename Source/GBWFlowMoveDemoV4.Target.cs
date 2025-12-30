@@ -8,7 +8,7 @@ public class GBWFlowMoveDemoV4Target : TargetRules
 	public GBWFlowMoveDemoV4Target(TargetInfo Target) : base(Target)
 	{
 		Type = TargetType.Game;
-		DefaultBuildSettings = BuildSettingsVersion.V6;
+		DefaultBuildSettings = BuildSettingsVersion.V5;
 
 		ExtraModuleNames.AddRange( new string[] { "GBWFlowMoveDemoV4" } );
 	}

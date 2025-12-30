@@ -4,6 +4,7 @@ DerivedDataCache/
 Intermediate/
 Saved/
 Build/
+Windows/
 
 # Visual Studio
 *.sln
@@ -28,3 +29,6 @@ Build/
 # Plugin build outputs
 Plugins/**/Binaries/
 Plugins/**/Intermediate/
+# Temp files
+log.txt
+nul

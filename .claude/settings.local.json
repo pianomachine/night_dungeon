@@ -4,7 +4,19 @@
       "Bash(git lfs install:*)",
       "Bash(git init:*)",
       "Bash(git remote add:*)",
-      "Bash(git add:*)"
+      "Bash(git add:*)",
+      "Bash(git lfs:*)",
+      "Bash(git commit:*)",
+      "Bash(git push:*)",
+      "Bash(git rm:*)",
+      "Bash(git checkout:*)",
+      "Skill(ue5-dev-cycle)",
+      "Bash(if exist Intermediate rd /s /q Intermediate)",
+      "Bash(powershell -Command:*)",
+      "WebSearch",
+      "WebFetch(domain:docs.google.com)",
+      "WebFetch(domain:forums.unrealengine.com)",
+      "Bash(cat:*)"
     ]
   }
 }

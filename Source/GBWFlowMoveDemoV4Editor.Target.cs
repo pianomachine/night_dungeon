@@ -8,7 +8,7 @@ public class GBWFlowMoveDemoV4EditorTarget : TargetRules
 	public GBWFlowMoveDemoV4EditorTarget(TargetInfo Target) : base(Target)
 	{
 		Type = TargetType.Editor;
-		DefaultBuildSettings = BuildSettingsVersion.V6;
+		DefaultBuildSettings = BuildSettingsVersion.V5;
 
 		ExtraModuleNames.AddRange( new string[] { "GBWFlowMoveDemoV4" } );
 	}
